@@ -21,3 +21,15 @@ cd go-books
 * Ubah konfigurasi env
 
 Ubah `APP_DB_USER`, `APP_DB_PASS`, `APP_DB_NAME` dalam file `.env`.
+
+* Run Project:
+
+```bash
+go run app.go
+```
+
+## To-do
+
+- [] Menambahan Unit Test.
+- [] Menambahan Konfigurasi Docker.
+- [] Menambahkan Dokumentasi API
