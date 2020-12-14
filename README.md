@@ -1,23 +1,23 @@
 # go-books
 
-## Description
+## Deskripsi
 
 Latihan RESTful API Web server daftar katalog buku menggunakan Echo framework, Gorm, dan MySQL.
 
-## Installation
+## Instalasi
 
-* Clone the project:
+* Clone proyek:
 
 ```bash
 git clone https://github.com/ferdhika31/go-books
 ```
 
-* Open the directory:
+* Masuk kedalam folder:
 
 ```bash
 cd go-books
 ```
 
-* Change environment settings
+* Ubah konfigurasi env
 
-Change `host`, `user`, `password`, `dbname` file in `.env`
+Ubah `APP_DB_USER`, `APP_DB_PASS`, `APP_DB_NAME` dalam file `.env`.
