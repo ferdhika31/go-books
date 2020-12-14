@@ -32,6 +32,7 @@ func main() {
 		return c.JSON(http.StatusCreated, response.OKMessage("REST API Catalog Go."))
 	})
 	api.CategoryGroup(e.Group("/v1/categories"))
+	api.BookGroup(e.Group("/v1/books"))
 
 	// e.Logger.Fatal(e.Start(":8081"))
 	e.Start(":8081")
