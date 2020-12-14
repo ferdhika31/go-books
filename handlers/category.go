@@ -88,7 +88,6 @@ func UpdateCategory(c echo.Context) error {
 	}
 
 	res := db.Model(&category).Updates(models.Category{Name: params.Name})
-	// res := db.Model(&category).Updates(models.Category{params})
 
 	if res.Error != nil {
 		return c.JSON(http.StatusInternalServerError, response.FailedWithData(res.Error, "Error updating data."))
