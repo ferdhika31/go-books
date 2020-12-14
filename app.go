@@ -5,6 +5,7 @@ import (
 	"net/http"
 
 	"github.com/ferdhika31/go-books/api"
+	"github.com/ferdhika31/go-books/config"
 	"github.com/ferdhika31/go-books/db"
 	"github.com/ferdhika31/go-books/response"
 	"github.com/labstack/echo"
@@ -34,6 +35,7 @@ func main() {
 	api.CategoryGroup(e.Group("/v1/categories"))
 	api.BookGroup(e.Group("/v1/books"))
 
+	configuration, _ := config.LoadConfig()
 	// e.Logger.Fatal(e.Start(":8081"))
-	e.Start(":8081")
+	e.Start(configuration.API.Host)
 }
