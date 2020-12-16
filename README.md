@@ -2,7 +2,15 @@
 
 ## Deskripsi
 
-Latihan RESTful API Web server daftar katalog buku menggunakan Echo framework, Gorm, dan MySQL.
+Nyoba REST API Web server daftar katalog buku menggunakan Echo framework, Gorm, dan MySQL.
+
+## To-do
+
+- [x] Go Web Framework: Echo https://echo.labstack.com
+- [x] Koneksi ke database MySQL
+- [x] CRUD REST API
+- [ ] Menambahan Konfigurasi Docker.
+- [ ] Menambahkan Dokumentasi API
 
 ## Instalasi
 
@@ -27,9 +35,3 @@ Ubah `APP_DB_USER`, `APP_DB_PASS`, `APP_DB_NAME` dalam file `.env`.
 ```bash
 go run app.go
 ```
-
-## To-do
-
-- [] Menambahan Unit Test.
-- [] Menambahan Konfigurasi Docker.
-- [] Menambahkan Dokumentasi API
