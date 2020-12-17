@@ -9,8 +9,6 @@ Nyoba REST API Web server daftar katalog buku menggunakan Echo framework, Gorm, 
 - [x] Go Web Framework: Echo https://echo.labstack.com
 - [x] Koneksi ke database MySQL
 - [x] CRUD REST API
-- [ ] Menambahan Konfigurasi Docker.
-- [ ] Menambahkan Dokumentasi API
 
 ## Instalasi
 
